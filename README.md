@@ -27,7 +27,7 @@ You'll use the data from the STEDI Step Trainer and mobile app to develop a lake
 -   AWS S3
 
 ### Project Data
-STEDI has three JSON data sources to use from the Step Trainer. Check out the JSON data in the following folders in the [Github repo](https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter)
+STEDI has three JSON data sources to use from the Step Trainer. Check out the JSON data in the starter folder:
 - customer
 - step_trainer
 - accelerometer
@@ -45,7 +45,7 @@ This is the data from fulfillment and the STEDI website. It contains the followi
 - phone
 - sharewithfriendsasofdate
 
-This is a [sample](https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/blob/main/project/starter/customer/landing/customer-1691348231425.json) file 
+This is a [sample](https://github.com/grace-omotoso/aws-spark-and-glue/blob/master/starter/customer/landing/customer-1691348231425.json) file 
 
 #### Step Trainer Records
 This is the data from the motion sensor. It contains the following fields:
@@ -53,7 +53,7 @@ This is the data from the motion sensor. It contains the following fields:
 - serialNumber
 - distanceFromObject
 
-This is a [sample](https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/blob/main/project/starter/step_trainer/landing/step_trainer-1691348232132.json) file 
+This is a [sample](https://github.com/grace-omotoso/aws-spark-and-glue/blob/master/starter/step_trainer/landing/step_trainer-1691348232038.json) file 
 
 ### Accelerometer Records
 This is the data from the mobile app. It contains the following fields:
@@ -63,7 +63,7 @@ This is the data from the mobile app. It contains the following fields:
 - y
 - z
 
-This is a [sample](https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/blob/main/project/starter/accelerometer/landing/accelerometer-1691348231445.json) file 
+This is a [sample](https://github.com/grace-omotoso/aws-spark-and-glue/blob/master/starter/accelerometer/landing/accelerometer-1691348231445.json) file 
 
 ### Processing Steps
 1. **Copy project data to a local directory**: Copy the project data from the starter folder and paste in your local project directory.
